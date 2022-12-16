@@ -1,4 +1,4 @@
-namespace Automation.Models;
+namespace AspCore.Models;
 
 public class ErrorViewModel
 {

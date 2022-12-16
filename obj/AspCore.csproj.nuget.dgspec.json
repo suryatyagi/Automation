@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\Automation\\Automation.csproj": {}
+    "d:\\project\\Automation\\AspCore.csproj": {}
   },
   "projects": {
-    "D:\\project\\Automation\\Automation.csproj": {
+    "d:\\project\\Automation\\AspCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\Automation\\Automation.csproj",
-        "projectName": "Automation",
-        "projectPath": "D:\\project\\Automation\\Automation.csproj",
+        "projectUniqueName": "d:\\project\\Automation\\AspCore.csproj",
+        "projectName": "AspCore",
+        "projectPath": "d:\\project\\Automation\\AspCore.csproj",
         "packagesPath": "C:\\Users\\surya.tyagi\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Automation\\obj\\",
+        "outputPath": "d:\\project\\Automation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\surya.tyagi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
